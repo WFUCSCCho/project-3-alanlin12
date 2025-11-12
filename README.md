@@ -95,18 +95,24 @@ Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot th
 vs. N for each case. Take a screenshot of your graph and put them here by modifying this file, committing, and pushing 
 it to this repository.
 
-Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (already sorted):
-![image](https://github.com/user-attachments/assets/76f103c8-8c02-4bec-9966-99568f2effb6)
+Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (already sorted):<img width="602" height="370" alt="Screenshot 2025-11-12 at 12 29 01 PM" src="https://github.com/user-attachments/assets/9913a777-44da-4b62-8b86-e0060ffe3858" />
 
-Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (shuffled):
 
-Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (reversed):
+Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (shuffled):<img width="599" height="370" alt="Screenshot 2025-11-12 at 12 30 16 PM" src="https://github.com/user-attachments/assets/882642cf-2325-4d56-9052-7d7bd49845dd" />
 
-Bubble Sort and Odd-Even Transposition Sort comparison (already sorted):
 
-Bubble Sort and Odd-Even Transposition Sort comparison (shuffled):
+Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (reversed):<img width="598" height="368" alt="Screenshot 2025-11-12 at 12 31 42 PM" src="https://github.com/user-attachments/assets/30fe0342-a9f4-4705-a9f4-a5f34b252f9d" />
 
-Bubble Sort and Odd-Even Transposition Sort comparison (reversed):
+
+Bubble Sort and Odd-Even Transposition Sort comparison (already sorted):<img width="638" height="391" alt="Screenshot 2025-11-12 at 12 37 49 PM" src="https://github.com/user-attachments/assets/e4af5fed-86ca-46e6-891e-cacfd69dbc4c" />
+
+
+
+Bubble Sort and Odd-Even Transposition Sort comparison (shuffled): <img width="638" height="392" alt="Screenshot 2025-11-12 at 12 38 29 PM" src="https://github.com/user-attachments/assets/eb5ea1b0-4300-4440-98c2-780025e504ea" />
+
+
+Bubble Sort and Odd-Even Transposition Sort comparison (reversed):<img width="637" height="391" alt="Screenshot 2025-11-12 at 12 35 48 PM" src="https://github.com/user-attachments/assets/6a473101-dc0b-4eb4-9c1d-95027e6f0e53" />
+ 
 
 ## Submission:
 
