@@ -104,14 +104,19 @@ Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (shuffled):<img 
 Bubble Sort, Merge Sort, Quick Sort, and Heap Sort running time (reversed):<img width="598" height="368" alt="Screenshot 2025-11-12 at 12 31 42 PM" src="https://github.com/user-attachments/assets/30fe0342-a9f4-4705-a9f4-a5f34b252f9d" />
 
 
-Bubble Sort and Odd-Even Transposition Sort comparison (already sorted):<img width="638" height="391" alt="Screenshot 2025-11-12 at 12 37 49 PM" src="https://github.com/user-attachments/assets/e4af5fed-86ca-46e6-891e-cacfd69dbc4c" />
+Bubble Sort and Odd-Even Transposition Sort comparison (already sorted):<img width="635" height="396" alt="Screenshot 2025-11-12 at 12 41 16 PM" src="https://github.com/user-attachments/assets/8d047ba3-aaab-45b3-b38a-6304e6a1582d" />
 
 
 
-Bubble Sort and Odd-Even Transposition Sort comparison (shuffled): <img width="638" height="392" alt="Screenshot 2025-11-12 at 12 38 29 PM" src="https://github.com/user-attachments/assets/eb5ea1b0-4300-4440-98c2-780025e504ea" />
+
+Bubble Sort and Odd-Even Transposition Sort comparison (shuffled):<img width="635" height="394" alt="Screenshot 2025-11-12 at 12 40 28 PM" src="https://github.com/user-attachments/assets/5e8c602b-5449-4652-9440-b0480d875658" />
 
 
-Bubble Sort and Odd-Even Transposition Sort comparison (reversed):<img width="637" height="391" alt="Screenshot 2025-11-12 at 12 35 48 PM" src="https://github.com/user-attachments/assets/6a473101-dc0b-4eb4-9c1d-95027e6f0e53" />
+
+Bubble Sort and Odd-Even Transposition Sort comparison (reversed):<img width="600" height="369" alt="Screenshot 2025-11-12 at 12 42 43 PM" src="https://github.com/user-attachments/assets/26aadded-72a8-4e29-95fe-dff1331725ac" />
+
+**Note**
+For the reversed, theres actually 2 lines the datapoints are just REALLY close
  
 
 ## Submission:
