@@ -7,6 +7,7 @@
  * @date: November 11, 2025
  *∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗*/
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -154,29 +155,32 @@ public class Proj3 {
     }
 
     public static void main(String [] args)  throws IOException {
-        String fileName = args[0];
+        String inputFileName = args[0];
         String sortingType = args[1];
         int numLines = Integer.parseInt(args[2]);
 
-        // Copy input.txt data based on num_lines
-        ArrayList<Integer> arr = new ArrayList<>();
-        Scanner sc = new Scanner(new File(fileName));
+        Scanner sc = new Scanner(new FileInputStream(inputFileName));
+        sc.nextLine();
 
-        int count = 0; //Count has to be < numLines
-        while(sc.hasNextLine() && count < numLines){
-            arr.add(sc.nextInt());
+        ArrayList<World> arr = new ArrayList<>();
+        int count = 0;
+        while (sc.hasNextLine() && count < numLines) {
+            String[] split = sc.nextLine().split(",");
+            int year = Integer.parseInt(split[0]);
+            long population = Long.parseLong(split[1]);
+            arr.add(new World(year, population));
             count++;
         }
         sc.close();
 
         // Make 3 types of arrays
-        ArrayList<Integer> sortedList = new ArrayList<>(arr);
+        ArrayList<World> sortedList = new ArrayList<>(arr);
         Collections.sort(sortedList);
 
-        ArrayList<Integer> shuffledList = new ArrayList<>(arr);
+        ArrayList<World> shuffledList = new ArrayList<>(arr);
         Collections.shuffle(shuffledList);
 
-        ArrayList<Integer> reversedList = new ArrayList<>(arr);
+        ArrayList<World> reversedList = new ArrayList<>(arr);
         Collections.sort(reversedList, Collections.reverseOrder());
 
         String[] orderType = new String[]{"sorted", "shuffled", "reversed"};
@@ -233,7 +237,7 @@ public class Proj3 {
             analysisWriter.write(String.format("%s, %s, %s, %.3f, %d\n", numLines, sortingType, s, time, comparisons));
 
             if(s.equals("reversed")){
-                for(int i : arr){
+                for(World i : arr){
                     sortedWriter.write(i + "\n");
                 }
             }
